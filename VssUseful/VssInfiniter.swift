@@ -5,13 +5,11 @@
 //  Created by Nathan Vasse on 25/06/2016.
 //
 //
-
-
 public class VssInfiniter {
     
     public var paginator: VssPaginator!
-    var isLoading = false
-    var isFull = false
+    public var isLoading = false
+    public var isFull = false
     public var isRefreshing = false
     
     var onLoadingClosures: [() -> ()] = []

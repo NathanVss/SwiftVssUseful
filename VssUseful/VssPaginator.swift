@@ -7,9 +7,9 @@
 //
 public class VssPaginator {
     
-    var offset: Int
-    var limit: Int
-    var page: Int
+    public var offset: Int
+    public var limit: Int
+    public var page: Int
     
     public init(entitiesPerGroup limit: Int) {
         self.limit = limit

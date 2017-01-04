@@ -7,7 +7,11 @@
 //
 import SwiftyJSON
 
-class VssSetter {
+public class VssSetter {
     
+    static func fillFromJSON(_ dest: AnyObject, json: JSON) {
+        
+        
+    }
     
 }

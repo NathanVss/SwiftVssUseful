@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7819D07078DE15D075AB7CAD /* Pods_VssUseful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF0383EE14C5FB5A9C3A243 /* Pods_VssUseful.framework */; };
+		D81DA80A1D2E99BC0071A9F5 /* VssTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81DA8091D2E99BC0071A9F5 /* VssTranslate.swift */; };
 		D86918DA1D2BEA8F0062E0EF /* VssUseful.h in Headers */ = {isa = PBXBuildFile; fileRef = D86918D91D2BEA8F0062E0EF /* VssUseful.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D86918E11D2BEA8F0062E0EF /* VssUseful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86918D61D2BEA8F0062E0EF /* VssUseful.framework */; };
 		D86918E61D2BEA8F0062E0EF /* VssUsefulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86918E51D2BEA8F0062E0EF /* VssUsefulTests.swift */; };
@@ -16,6 +17,9 @@
 		D86919011D2BEB5D0062E0EF /* VssInfiniter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86918FC1D2BEB5D0062E0EF /* VssInfiniter.swift */; };
 		D86919021D2BEB5D0062E0EF /* VssPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86918FD1D2BEB5D0062E0EF /* VssPaginator.swift */; };
 		D86919031D2BEB5D0062E0EF /* VssSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86918FE1D2BEB5D0062E0EF /* VssSetter.swift */; };
+		D8E4F5F31D2DCE89009BAF31 /* VssCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E4F5F21D2DCE89009BAF31 /* VssCardView.swift */; };
+		D8E6E8BB1E0C2821001A01B7 /* VssVersioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6E8BA1E0C2821001A01B7 /* VssVersioning.swift */; };
+		D8E6E8BF1E0C2C60001A01B7 /* VersioningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6E8BE1E0C2C60001A01B7 /* VersioningTests.swift */; };
 		EC826EED60F23BEB9E1832D0 /* Pods_VssUsefulTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2A4C8F600A739223E49C5E /* Pods_VssUsefulTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +38,7 @@
 		33C66253F98DEBAB9220C857 /* Pods-VssUseful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VssUseful.release.xcconfig"; path = "Pods/Target Support Files/Pods-VssUseful/Pods-VssUseful.release.xcconfig"; sourceTree = "<group>"; };
 		42199A72698FDC70D241D9E1 /* Pods-VssUseful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VssUseful.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VssUseful/Pods-VssUseful.debug.xcconfig"; sourceTree = "<group>"; };
 		5423ECA57674FC77BD068C72 /* Pods-VssUsefulTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VssUsefulTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VssUsefulTests/Pods-VssUsefulTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D81DA8091D2E99BC0071A9F5 /* VssTranslate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VssTranslate.swift; sourceTree = "<group>"; };
 		D86918D61D2BEA8F0062E0EF /* VssUseful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VssUseful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86918D91D2BEA8F0062E0EF /* VssUseful.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VssUseful.h; sourceTree = "<group>"; };
 		D86918DB1D2BEA8F0062E0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +50,9 @@
 		D86918FC1D2BEB5D0062E0EF /* VssInfiniter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VssInfiniter.swift; sourceTree = "<group>"; };
 		D86918FD1D2BEB5D0062E0EF /* VssPaginator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VssPaginator.swift; sourceTree = "<group>"; };
 		D86918FE1D2BEB5D0062E0EF /* VssSetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VssSetter.swift; sourceTree = "<group>"; };
+		D8E4F5F21D2DCE89009BAF31 /* VssCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VssCardView.swift; sourceTree = "<group>"; };
+		D8E6E8BA1E0C2821001A01B7 /* VssVersioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VssVersioning.swift; sourceTree = "<group>"; };
+		D8E6E8BE1E0C2C60001A01B7 /* VersioningTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersioningTests.swift; sourceTree = "<group>"; };
 		EA96137254B09EC89239AF19 /* Pods-VssUsefulTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VssUsefulTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VssUsefulTests/Pods-VssUsefulTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD2A4C8F600A739223E49C5E /* Pods_VssUsefulTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VssUsefulTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +121,7 @@
 		D86918D81D2BEA8F0062E0EF /* VssUseful */ = {
 			isa = PBXGroup;
 			children = (
+				D8E6E8BA1E0C2821001A01B7 /* VssVersioning.swift */,
 				D86918FA1D2BEB5D0062E0EF /* ReplaceMe.swift */,
 				D86918FB1D2BEB5D0062E0EF /* VssAgo.swift */,
 				D86918FC1D2BEB5D0062E0EF /* VssInfiniter.swift */,
@@ -120,6 +129,8 @@
 				D86918FE1D2BEB5D0062E0EF /* VssSetter.swift */,
 				D86918D91D2BEA8F0062E0EF /* VssUseful.h */,
 				D86918DB1D2BEA8F0062E0EF /* Info.plist */,
+				D8E4F5F21D2DCE89009BAF31 /* VssCardView.swift */,
+				D81DA8091D2E99BC0071A9F5 /* VssTranslate.swift */,
 			);
 			path = VssUseful;
 			sourceTree = "<group>";
@@ -129,6 +140,7 @@
 			children = (
 				D86918E51D2BEA8F0062E0EF /* VssUsefulTests.swift */,
 				D86918E71D2BEA8F0062E0EF /* Info.plist */,
+				D8E6E8BE1E0C2C60001A01B7 /* VersioningTests.swift */,
 			);
 			path = VssUsefulTests;
 			sourceTree = "<group>";
@@ -284,7 +296,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BE838E980CBF596D59A5151B /* [CP] Check Pods Manifest.lock */ = {
@@ -299,7 +311,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D184F1F5E7E2E521A1CBDAEC /* [CP] Embed Pods Frameworks */ = {
@@ -324,11 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81DA80A1D2E99BC0071A9F5 /* VssTranslate.swift in Sources */,
 				D86919001D2BEB5D0062E0EF /* VssAgo.swift in Sources */,
 				D86919011D2BEB5D0062E0EF /* VssInfiniter.swift in Sources */,
 				D86919021D2BEB5D0062E0EF /* VssPaginator.swift in Sources */,
 				D86919031D2BEB5D0062E0EF /* VssSetter.swift in Sources */,
 				D86918FF1D2BEB5D0062E0EF /* ReplaceMe.swift in Sources */,
+				D8E6E8BB1E0C2821001A01B7 /* VssVersioning.swift in Sources */,
+				D8E4F5F31D2DCE89009BAF31 /* VssCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86918E61D2BEA8F0062E0EF /* VssUsefulTests.swift in Sources */,
+				D8E6E8BF1E0C2C60001A01B7 /* VersioningTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

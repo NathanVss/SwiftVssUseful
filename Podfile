@@ -7,7 +7,7 @@ target 'VssUseful' do
 
   # Pods for VssUseful
   pod 'SwiftyJSON'
-
+  pod "STRegex"
   target 'VssUsefulTests' do
     inherit! :search_paths
     # Pods for testing
