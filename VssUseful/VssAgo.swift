@@ -24,7 +24,7 @@ public class VssAgo {
     static var secondsInMonth = secondsInDay * 30
     static var secondsInYear = secondsInDay * 365
 
-    public static func toHuman(_ seconds: Int) -> VssDateInterval {
+    public static func toHuman(seconds: Int) -> VssDateInterval {
         var seconds = seconds
         
         let years = seconds / secondsInYear

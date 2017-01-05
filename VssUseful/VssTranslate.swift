@@ -8,7 +8,7 @@
 
 public class VssTranslate {
 
-    public static func placeVars(_ translation: String, values: [String: String]?) -> String {
+    public static func placeVars(translation: String, values: [String: String]?) -> String {
         var toFill = translation
         if values != nil {
             for (key, value) in values! {
@@ -18,12 +18,12 @@ public class VssTranslate {
         return toFill
     }
     
-    public static func string(_ name: String, values: [String: String]? = nil) -> String {
+    public static func string(name: String, values: [String: String]? = nil) -> String {
         let string = NSLocalizedString(name, comment: "")
         return placeVars(string, values: values)
     }
     
-    public static func string(_ name: String, table: String, values: [String: String]?) -> String {
+    public static func string(name: String, table: String, values: [String: String]?) -> String {
         let string = NSLocalizedString(name, tableName: table, comment: "")
         return placeVars(string, values: values)
     }
